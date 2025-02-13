@@ -1,7 +1,48 @@
 from Logic.cordinador import *
+from Logic.usuario import *
 
 def menu_usuario():
+    usuaro=abrirJSON2()
     print("Bienvenido, Usuario")
+    print("Digite su ID")
+    id=int(input(": "))
+    for i in range(len(usuaro)):
+        if id==usuaro[i]["id"]:
+            if usuaro[i]["categoria"]=="Leal":
+                print("Bienvnido le ofrecemos un 15%"," de descuento en todos nuestros servicios por ser un cliente leal")
+                print("Que desea hacer?")
+                print("1. Ver servicios")
+                print("2. Ver mis servicios")
+                print("3. Ver mis datos")
+                print("0. Salir")
+                opcion=int(input(":"))
+                if opcion==1:
+                    verServiciosleal()
+                elif opcion==2:
+                    vermisservicios()
+                elif opcion==3:
+                    vermisdatos()
+                elif opcion==0:
+                    print("Saliendo del programa...")
+                else:
+                    print("Opcion invalida")
+            else:
+                print("Que desea hacer?")
+                print("1. Ver servicios")
+                print("2. Ver mis servicios")
+                print("3. Ver mis datos")
+                print("0. Salir")
+                opcion=int(input(":"))
+                if opcion==1:
+                    verServicios()
+                elif opcion==2:
+                    vermisservicios()
+                elif opcion==3:
+                    vermisdatos()
+                elif opcion==0:
+                    print("Saliendo del programa...")
+                else:
+                    print("Opcion invalida")
 
 def menu_principal():
     print('''

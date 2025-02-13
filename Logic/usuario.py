@@ -56,3 +56,31 @@ def interaccionempresa():
                 sugerencia=input("Ingrese la sugerencia:")
                 Usuarios[i]["sugerencia"]=sugerencia
                 guardarJSON2(Usuarios)
+
+def vermisdatos():
+    Usuarios=abrirJSON2()
+    print("numero de id del cliente: ")
+    cliente=int(input(": "))
+    for i in range(len(Usuarios)):
+        if cliente==Usuarios[i]["id"]:
+            print("Nombre:",Usuarios[i]["nombre"])
+            print("Apellido:",Usuarios[i]["apellido"])
+            print("ID:",Usuarios[i]["id"])
+            print("Telefono:",Usuarios[i]["telefono"])
+            print("Direccion:",Usuarios[i]["direccion"])
+            print("Servicios:",Usuarios[i]["servicios"])
+            print("Tiempo:",Usuarios[i]["tiempo"])
+            print("Reclamo:",Usuarios[i]["reclamo"])
+            print("Consulta:",Usuarios[i]["consulta"])
+            print("Sugerencia:",Usuarios[i]["sugerencia"])
+            print("")
+
+def vermisservicios():
+    Usuarios=abrirJSON2()
+    print("numero de id del cliente: ")
+    cliente=int(input(": "))
+    for i in range(len(Usuarios)):
+        if cliente==Usuarios[i]["id"]:
+            print("Servicios:",Usuarios[i]["servicios"])
+            print("Tiempo:",Usuarios[i]["tiempo"])
+            print("")

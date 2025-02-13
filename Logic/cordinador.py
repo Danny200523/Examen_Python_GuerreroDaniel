@@ -129,3 +129,7 @@ def verServicios():
         print("Descripcion:",servicios[i]["descripcion"])
         print("Precio:",servicios[i]["precio"])
         print("")
+
+def verserviciosleal():
+    servicio=abrirJSON()
+    
