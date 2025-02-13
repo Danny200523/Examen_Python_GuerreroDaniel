@@ -1,6 +1,7 @@
 from Logic.cordinador import *
 from Logic.usuario import *
 from Logic.reportes import *
+from Logic.autosistem import *
 
 def menu_usuario():
     usuaro=abrirJSON2()
@@ -15,6 +16,7 @@ def menu_usuario():
                 print("1. Ver servicios")
                 print("2. Ver mis servicios")
                 print("3. Ver mis datos")
+                print("4. hacer interaccion a la empresa")
                 print("0. Salir")
                 opcion=int(input(":"))
                 if opcion==1:
@@ -23,6 +25,8 @@ def menu_usuario():
                     vermisservicios()
                 elif opcion==3:
                     vermisdatos()
+                elif opcion==4:
+                    interaccionempresa()
                 elif opcion==0:
                     print("Saliendo del programa...")
                 else:
@@ -46,6 +50,7 @@ def menu_usuario():
                     print("Opcion invalida")
 
 def menu_principal():
+    asignarcategoria()
     print('''
     ======================
     === Menú Principal ===

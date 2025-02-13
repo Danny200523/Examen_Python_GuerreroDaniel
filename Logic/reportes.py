@@ -5,14 +5,18 @@ def reportecantidadproductos():
     print(len(productos))
     print("Productos:")
     for i in range(len(productos)):
-        print(productos[i]["nombre"])
-        print(productos[i]["descripcion"])
-        print(productos[i]["precio"])
-        print(productos[i]["cantidad"])
+        print(productos[i]["name"])
+        print(productos[i]["description"])
+        print(productos[i]["price"])
         print(" ")
 
 def serviciopopular():
     usuario=abrirJSON2()
+    n=0
+    m=0
+    t=0
+    h=0
+    s=0
     for i in range(len(usuario)):
         if usuario[i]["servicio en uso"]=="Internet":
             n+=1

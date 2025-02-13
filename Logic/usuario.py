@@ -68,11 +68,8 @@ def vermisdatos():
             print("ID:",Usuarios[i]["id"])
             print("Telefono:",Usuarios[i]["telefono"])
             print("Direccion:",Usuarios[i]["direccion"])
-            print("Servicios:",Usuarios[i]["servicios"])
+            print("Servicios:",Usuarios[i]["servicio en uso"])
             print("Tiempo:",Usuarios[i]["tiempo"])
-            print("Reclamo:",Usuarios[i]["reclamo"])
-            print("Consulta:",Usuarios[i]["consulta"])
-            print("Sugerencia:",Usuarios[i]["sugerencia"])
             print("")
 
 def vermisservicios():

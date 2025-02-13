@@ -5,11 +5,11 @@ def asignarcategoria():
     print("Asignar categoria a usuario")
     for i in range(len(usuario)):
         if usuario[i]["id"]:
-            if usuario["tiempo"]>=10:
+            if usuario[i]["tiempo"]>=10:
                 usuario[i]["categoria"]="Leal"
-            elif usuario["tiempo"]>=3:
+            elif usuario[i]["tiempo"]>=3:
                 usuario[i]["categoria"]="Regular"
-            elif usuario["tiempo"]<3:
+            elif usuario[i]["tiempo"]<3:
                 usuario[i]["categoria"]="Nuevo"
             else:
                 print("Opcion invalida")

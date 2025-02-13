@@ -1,8 +1,8 @@
 [
   {
     "name": "Internet",
-    "description": "Internet para hogar de máxima velocidad",
-    "price": 120000
+    "description": "Internet para hogar de m\u00e1xima velocidad",
+    "price": 200000
   },
   {
     "name": "Mobile Plan",
@@ -21,7 +21,7 @@
   },
   {
     "name": "Smart Home",
-    "description": "Automatización de hogar",
+    "description": "Automatizaci\u00f3n de hogar",
     "price": 520000
   }
 ]

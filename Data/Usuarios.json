@@ -6,7 +6,9 @@
         "tiempo": 2,
         "telefono": "1234567890",
         "direccion": "Calle 32 #42-15",
-        "servicio en uso": "Internet"},
+        "servicio en uso": "Internet",
+        "categoria": "Nuevo"
+    },
     {
         "id": 1048523165,
         "nombre": "Maria",
@@ -14,7 +16,9 @@
         "tiempo": 1,
         "telefono": "0987654321",
         "direccion": "Calle 54 #36-78",
-        "servicio en uso": "Mobile Plan"},
+        "servicio en uso": "Mobile Plan",
+        "categoria": "Nuevo"
+    },
     {
         "id": 1034567890,
         "nombre": "Pedro",
@@ -22,7 +26,9 @@
         "tiempo": 3,
         "telefono": "6789012345",
         "direccion": "Calle 123 #25A-67",
-        "servicio en uso": "TV Package"},
+        "servicio en uso": "TV Package",
+        "categoria": "Regular"
+    },
     {
         "id": 1023456789,
         "nombre": "Ana",
@@ -30,7 +36,9 @@
         "tiempo": 7,
         "telefono": "4567890123",
         "direccion": "Calle 98 #45-32",
-        "servicio en uso": "Home Phone"},
+        "servicio en uso": "Home Phone",
+        "categoria": "Regular"
+    },
     {
         "id": 1012345678,
         "nombre": "Carlos",
@@ -38,13 +46,17 @@
         "tiempo": 10,
         "telefono": "2345678901",
         "direccion": "Calle 76 #54-32",
-        "servicio en uso": "Smart Home"},
+        "servicio en uso": "Smart Home",
+        "categoria": "Leal"
+    },
     {
         "id": 1001234567,
-        "nombre": "Sofia",
+        "nombre": "Daniel",
         "apellido": "Lopez",
         "tiempo": 5,
         "telefono": "3456789012",
         "direccion": "Calle 65 #43-21",
-        "servicio en uso": "Mobile Plan"}
+        "servicio en uso": "Mobile Plan",
+        "categoria": "Regular"
+    }
 ]
