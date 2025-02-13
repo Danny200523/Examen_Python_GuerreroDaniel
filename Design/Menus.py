@@ -36,6 +36,7 @@ def menu_usuario():
                 print("1. Ver servicios")
                 print("2. Ver mis servicios")
                 print("3. Ver mis datos")
+                print("4. hacer interaccion a la empresa")
                 print("0. Salir")
                 opcion=int(input(":"))
                 if opcion==1:
@@ -44,6 +45,8 @@ def menu_usuario():
                     vermisservicios()
                 elif opcion==3:
                     vermisdatos()
+                elif opcion==4:
+                    interaccionempresa()
                 elif opcion==0:
                     print("Saliendo del programa...")
                 else:
@@ -61,16 +64,6 @@ def menu_principal():
     ======================
           ''')
 
-    opcion = input("Selecciona una opción: ")
-
-    if opcion == "1":
-        menu_coordinador()
-    elif opcion == "2":
-        menu_usuario()
-    elif opcion == "0":
-        print("Saliendo del programa...")
-    else:
-        print("Opción inválida. Por favor, selecciona una opción válida.")
 
 def menu_coordinador():
     print("Bienvenido, Coordinador")
