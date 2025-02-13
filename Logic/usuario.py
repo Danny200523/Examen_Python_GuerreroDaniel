@@ -1,4 +1,5 @@
 from Logic.cordinador import *
+
 def verservicios():
     servicio=abrirJSON
     print("Servicios disponibles y caracteristicas:")
@@ -31,3 +32,27 @@ def verservicios():
             print(servicio[i]["price"])
         else:
             print("Opcion invalida")
+
+def interaccionempresa():
+    Usuarios=abrirJSON2()
+    print("numero de id del cliente: ")
+    cliente=int(input(": "))
+    print("Ingrese que quiere hacer")
+    print("1. Poner un reclamo")
+    print("2. Generar consulta al servicio al cliente")
+    print("3. generar sugerencia")
+    hacer=int(input("Ingrese la opcion:"))
+    for i in range(len(Usuarios)):
+        if cliente==Usuarios[i]["id"]:
+            if hacer==1:
+                reclamo=input("Ingrese el reclamo:")
+                Usuarios[i]["reclamo"]=reclamo
+                guardarJSON2(Usuarios)
+            elif hacer==2:
+                consulta=input("Ingrese la consulta:")
+                Usuarios[i]["consulta"]=consulta
+                guardarJSON2(Usuarios)
+            elif hacer==3:
+                sugerencia=input("Ingrese la sugerencia:")
+                Usuarios[i]["sugerencia"]=sugerencia
+                guardarJSON2(Usuarios)
