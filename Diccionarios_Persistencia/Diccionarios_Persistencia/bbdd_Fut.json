@@ -1,0 +1,29 @@
+{
+    "1": {
+        "nombre": "Stars",
+        "plataforma": "Windows",
+        "cantInte": 5,
+        "skins": [
+            "Goku",
+            "Sayayin",
+            "Barney",
+            "Cajasan",
+            "Campuslands",
+            "Mac"
+        ],
+        "integrantes": [
+            {
+                "nombre": "Pedro",
+                "apellido": "Gomez",
+                "edad": 24
+            },
+            {
+                "nombre": "Aura",
+                "apellido": "Pico",
+                "edad": 16
+            }
+        ]
+    },
+    "2": {},
+    "3": {}
+}

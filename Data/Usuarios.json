@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1094235715,
+        "nombre": "Juan",
+        "apellido": "Perez",
+        "tiempo": 2,
+        "telefono": "1234567890",
+        "direccion": "Calle 32 #42-15",
+        "servicio en uso": "Internet"},
+    {
+        "id": 1048523165,
+        "nombre": "Maria",
+        "apellido": "Gomez",
+        "tiempo": 1,
+        "telefono": "0987654321",
+        "direccion": "Calle 54 #36-78",
+        "servicio en uso": "Mobile Plan"},
+    {
+        "id": 1034567890,
+        "nombre": "Pedro",
+        "apellido": "Gonzalez",
+        "tiempo": 3,
+        "telefono": "6789012345",
+        "direccion": "Calle 123 #25A-67",
+        "servicio en uso": "TV Package"},
+    {
+        "id": 1023456789,
+        "nombre": "Ana",
+        "apellido": "Martinez",
+        "tiempo": 7,
+        "telefono": "4567890123",
+        "direccion": "Calle 98 #45-32",
+        "servicio en uso": "Home Phone"},
+    {
+        "id": 1012345678,
+        "nombre": "Carlos",
+        "apellido": "Rodriguez",
+        "tiempo": 10,
+        "telefono": "2345678901",
+        "direccion": "Calle 76 #54-32",
+        "servicio en uso": "Smart Home"},
+    {
+        "id": 1001234567,
+        "nombre": "Sofia",
+        "apellido": "Lopez",
+        "tiempo": 5,
+        "telefono": "3456789012",
+        "direccion": "Calle 65 #43-21",
+        "servicio en uso": "Mobile Plan"}
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Internet",
+    "description": "Internet para hogar de máxima velocidad",
+    "price": 120000
+  },
+  {
+    "name": "Mobile Plan",
+    "description": "Plan 10GB minutos ilimitados",
+    "price": 45000
+  },
+  {
+    "name": "TV Package",
+    "description": "200+ canales",
+    "price": 100000
+  },
+  {
+    "name": "Home Phone",
+    "description": "Telefono fijo ilimitado, nacional e internacional",
+    "price": 50000
+  },
+  {
+    "name": "Smart Home",
+    "description": "Automatización de hogar",
+    "price": 520000
+  }
+]
