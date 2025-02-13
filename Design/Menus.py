@@ -1,5 +1,6 @@
 from Logic.cordinador import *
 from Logic.usuario import *
+from Logic.reportes import *
 
 def menu_usuario():
     usuaro=abrirJSON2()
@@ -17,7 +18,7 @@ def menu_usuario():
                 print("0. Salir")
                 opcion=int(input(":"))
                 if opcion==1:
-                    verServiciosleal()
+                    verserviciosleal()
                 elif opcion==2:
                     vermisservicios()
                 elif opcion==3:
@@ -74,8 +75,10 @@ def menu_coordinador():
     print("4. Eliminar servicio")
     print("5. Modificar usuario")
     print("6. Modificar servicio")
-    print("Ver usuarios")
-    print("Ver servicios")
+    print("7. Ver usuarios")
+    print("8. Ver servicios")
+    print("9. reporte cantidad de productos")
+    print("10. ver el servicio mas popular")
     print("0. Salir")
     opcion=int(input("Ingrese la opcion:"))
     if opcion==1:
@@ -90,6 +93,14 @@ def menu_coordinador():
         modificarUsuario()
     elif opcion==6:
         modificarServicio()
+    elif opcion==7:
+        verUsuarios()
+    elif opcion==8:
+        verServicios()
+    elif opcion==9:
+        reportecantidadproductos()
+    elif opcion==10:
+        serviciopopular()
     elif opcion==0:
         print("Saliendo del programa...")
     else:

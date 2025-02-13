@@ -132,4 +132,9 @@ def verServicios():
 
 def verserviciosleal():
     servicio=abrirJSON()
-    
+    for i in range(len(servicio)):
+        precio=servicio[i]["price"]
+        descuento=precio*0.15
+        print("Nombre del servicio",servicio[i]["name"])
+        print("descripcion del servicio",servicio[i]["description"])
+        print("Valor con descuento por ser cliente leal",precio-descuento)
