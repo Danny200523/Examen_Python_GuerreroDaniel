@@ -27,5 +27,6 @@ Para ejecutar este programa es necesario tener algún intérprete de Python inst
 
 Hecho por [Daniel Guerrero](https://github.com/Danny200523)
 
-> [USO]
+> [!IMPORTANT]
+> USO
 >Este programa seria uso variado dependiendo de las empresas para su organizacion de servicios, en este caso empresa de servicios de planes postpago, prepago, hogar, etc, este programa seguiria teniendo utilidad en empresas que tengan servicios mas que productos los cuales vender para organizacion y logistica.
